@@ -1,0 +1,21 @@
+{
+  "name": "media_count",
+  "version": "1.0.0",
+  "description": "Media count description",
+  "main": "./web-server.js",
+  "scripts": {
+    "start": "node ./web-server.js"
+  },
+  "author": "Steen Hansen <steen_hansen@yahoo.com> (https://www.jerkersearcher.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "file-system": "^2.2.2",
+    "mongodb": "^3.0.0",
+    "mongoose": "^4.13.7",
+    "csv-builder": "^1.0.0",
+    "mongoose-to-csv-quotes": "^1.0.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {}
+}
