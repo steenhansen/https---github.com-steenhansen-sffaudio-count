@@ -39,7 +39,7 @@ const document_schema = {
 }
 
 media_schema = new mongoose.Schema(document_schema)
-const header_values = 'media_name download_count download_year download_month usa_dd_mm_yyyy yyyy_mm_dd media_type'
+const header_values = 'media_name download_count download_year download_month media_type'
 media_schema.plugin(mongooseToCsv, { headers: header_values })
 const media_model = mongoose.model(model_name, media_schema)
 
