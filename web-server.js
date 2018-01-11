@@ -6,12 +6,17 @@ const fs = require('file-system')
 mongoose.Promise = require('bluebird')
 
 const DAYS_SIGNIFIER=28 
+
 const TYPE_PDF_CAN = 'can_pdf'
 const TYPE_PDF_USA = 'usa_pdf'
 const TYPE_RSD = 'rsd_podcast'
 const TYPE_SFF_CAN = 'can_podcast'
 const TYPE_SFF_USA = 'usa_podcast'
-const MEDIA_TYPES = [TYPE_PDF_CAN, TYPE_PDF_USA, TYPE_RSD, TYPE_SFF_CAN, TYPE_SFF_USA]
+
+const TYPE_PAGE = 'page_count'
+
+
+const MEDIA_TYPES = [TYPE_PDF_CAN, TYPE_PDF_USA, TYPE_RSD, TYPE_SFF_CAN, TYPE_SFF_USA, TYPE_PAGE]
 const TYPE_OUTPUT = 'csv_output'
 
 const CANADA_AMAZON_DIR = 'http://sffaudiomediacan.s3.amazonaws.com/canadianpodcasts/'

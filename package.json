@@ -1,6 +1,6 @@
 {
   "name": "media_count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Media count description",
   "main": "./web-server.js",
   "scripts": {
